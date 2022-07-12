@@ -1,0 +1,234 @@
+.AddVacation {
+    position: relative;
+    background-image: url(../../../Assets/Images/pexels-gabriel-garcia-2403629.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.addVacation-preview-side {
+    position: relative;
+    width: 50%;
+}
+
+.addVacation-preview-side>div {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.addVacation-preview-side>div>img {
+    width: 100%;
+}
+
+.addVacation-preview-side>div {
+    color: white;
+}
+
+.addVacation-form-side {
+    position: relative;
+    width: 50%;
+}
+
+.addVacation-form {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    height: clamp(fit-content, 70%, 70%);
+    margin: auto;
+    width: clamp(350px, 90%, 90%);
+    background-color: rgb(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.addVacation-form-element {
+    min-width: 355px;
+    width: 80%;
+    margin: 15% auto;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+}
+
+.addVacation-form-element>* {
+    margin-top: 8%;
+}
+
+.addVacation-form-element-input-field {
+    border: none;
+    border-radius: 9px;
+}
+
+.addVacation-column-container {
+    padding: 0%;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addVacation-column-container>label {
+    font-weight: bold;
+    font-size: 20px;
+    /* align-self: baseline; */
+}
+
+.addVacation-column-container>input {
+    border: none;
+    border-radius: 9px;
+}
+
+.addVacation-description>input {
+    height: 100px;
+}
+
+.addVacation-destination>input {
+    height: 50px;
+}
+
+.addVacation-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.addVacation-row-container {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.addVacation-row-container>label {
+    font-weight: bold;
+    font-size: 20px;
+    /* align-self: baseline; */
+}
+
+.addVacation-row-container>input {
+    border: none;
+    border-radius: 9px;
+    width: 100%;
+    height: 40px;
+}
+
+.addVacation-custom-file-input {
+    color: transparent;
+}
+
+.addVacation-custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.addVacation-custom-file-input::before {
+    content: 'Select some files';
+    color: black;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+    width: 100%;
+    height: 40px;
+}
+
+.addVacation-custom-file-input:hover::before {
+    border-color: black;
+}
+
+.addVacation-custom-file-input:active {
+    outline: 0;
+}
+
+.addVacation-custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.addVacation-send-button {
+    margin: 8% auto;
+    border: none;
+    background-color: #98B3B1;
+    color: white;
+    border-radius: 34px;
+    height: 40px;
+    width: 200px;
+}
+
+.addVacation-back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ffffff;
+    background-color: #98B3B1;
+    text-decoration: none;
+    border: 2px solid #98B3B1;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 15px;
+}
+
+.addVacation-back-button:hover {
+    color: #ffffff;
+}
+
+
+@media only screen and (max-width:860px) {
+    .addVacation-preview-side {
+        display: none;
+    }
+
+    .addVacation-form-side {
+        position: relative;
+        width: 100%;
+    }
+
+    .addVacation-form {
+        min-width: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: fit-content;
+        margin: auto;
+        width: 80%;
+        background-color: rgb(255, 255, 255, 0.7);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .addVacation-form-element {
+        min-width: 300px;
+        width: 60%;
+        margin: 0% auto;
+        display: flex;
+        box-sizing: border-box;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .addVacation-row {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 5%;
+    }
+
+    .addVacation-description>input {
+        height: 50px;
+    }
+}

@@ -1,0 +1,109 @@
+.UserActions {
+    min-height: 100vh;
+    background-image: url(../../../Assets/Images/background\ 1.jpg);
+    background-size: cover;
+}
+
+.userActions-content {
+    max-width: 1600px;
+    min-height:516px ;
+    width: 80%;
+    height: 70%;
+    border-radius: 25px;                                                                    
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    justify-content: space-between;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFFFFF;
+}
+
+.userActions-action-side {
+    margin: 2% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: clamp(70% ,70% ,100%);
+}
+
+
+.userActions-action-side-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.userActions-action-side-links>* {
+    margin: 2%;
+    width: 20%;
+}
+
+
+.userActions-action-side>.userActions-action-side-image {
+    width: 240px;
+    height: 126px;
+    margin: 0% auto;
+}
+
+.userActions-image-side {
+    width: 30%;
+    position: relative;
+}
+
+.userActions-image-side>img {
+    position: absolute;
+    top: 50%;
+    right: 7%;
+    transform: translate(0, -50%);
+    width: auto;
+    height: 90%;
+}
+
+@media only screen and (max-width: 860px) {
+    .UserActions {
+        background-image: url(../../../Assets/Images/side-image.png);
+        background-size: cover;
+    }
+
+    .userActions-action-side {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+
+    .userActions-image-side {
+        display: none;
+        width: 30%;
+        position: relative;
+    }
+
+    .userActions-content {
+        width: fit-content;
+        height: fit-content;
+        padding: 10%;
+        border-radius: 25px;
+        display: flex;
+        flex-direction: row;
+        position: absolute;
+        justify-content: space-between;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        background-color: #FFFFFF;
+    }
+
+    .userActions-action-side-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .userActions-action-side-links>* {
+        min-width: 70px;
+        margin: 2%;
+    }
+}

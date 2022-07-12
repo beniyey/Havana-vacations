@@ -1,0 +1,9 @@
+html, body, #root {
+  min-height: 100%;
+  text-align: center;
+  font-family: Arial Rounded MT, Bold;
+}
+
+.validation-error-span{
+  color: red;
+}

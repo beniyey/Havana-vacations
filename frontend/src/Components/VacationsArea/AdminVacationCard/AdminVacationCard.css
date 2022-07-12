@@ -1,0 +1,83 @@
+.adminVacationCard {
+    width: 200px;
+    font-family: Arial Rounded MT, Bold;
+
+}
+
+.adminVacationCard-image-info {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    border-radius: 23px;
+    position: relative;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.adminVacationCard-image-info-edit {
+    position: absolute;
+    top: 19px;
+    left: 15px;
+}
+
+.adminVacationCard-image-info-edit-button {
+    font-size: 13px;
+    /* width: 30; */
+    padding: 10%;
+    text-decoration: none;
+    color: white;
+    margin: 5% auto;
+}
+
+.adminVacationCard-image-info-edit-button:hover{
+    color: #F2B58F;
+}
+
+.adminVacationCard-location-price {
+    text-align: left;
+    margin: 2% auto;
+    width: 90%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.adminVacationCard-location-price p:nth-child(1) {
+    color: #98B3B1;
+}
+
+.adminVacationCard-description {
+    font-size: 15px;
+    height: 150px;
+}
+
+.adminVacationCard-dates {
+    color: #F2B58F;
+    font-size: 15px;
+}
+
+.adminVacationCard-image-info-followers {
+    width: 100%;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    gap: 37%;
+    bottom: 0px;
+    left: 4px;
+}
+
+.adminVacationCard-adminVacationCard>img {
+    width: 200px;
+    height: 300px;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 23px;
+    opacity: 1;
+}
+
+.adminVacationCard-image-info-followers-delete-button{
+border: none;
+background-color: transparent;
+margin-bottom: 5%;
+}

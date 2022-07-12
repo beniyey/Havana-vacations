@@ -1,0 +1,41 @@
+.adminInsights-logo {
+    width: 146px;
+    height: 100%;
+}
+
+.adminInsights-nav {
+    margin: 5% auto;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.adminInsights-back {
+    color: #F2B58F;
+    text-decoration: none;
+    border: 2px solid #98B3B1;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 15px;
+}
+
+.adminInsights-back:hover {
+    color: white;
+    background-color: #98B3B1;
+    border: 2px solid #98B3B1;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 15px;
+}
+
+.adminInsights-nav-text {
+    color: #F5C5A7;
+    font-size: 85px;
+}
+
+.adminChart{
+    margin: auto;
+    width: 80%;
+}
