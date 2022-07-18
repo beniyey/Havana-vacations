@@ -1,0 +1,217 @@
+.EditVacation {
+    position: relative;
+    background-image: url(../../../Assets/Images/pexels-gabriel-garcia-2403629.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.editVacation-side-container {
+    width: clamp(100%, 50%, 50%);
+    position: relative;
+}
+
+.editVacation-label {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.editVacation-input {
+    border: none;
+    border-radius: 9px;
+}
+
+.editVacation-description {
+    height: 100px;
+}
+
+.editVacation-destination {
+    height: 50px;
+}
+
+.editVacation-preview {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.editVacation-back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #ffffff;
+    background-color: #98B3B1;
+    text-decoration: none;
+    border: 2px solid #98B3B1;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 15px;
+}
+
+.editVacation-back-button:hover {
+    color: #ffffff;
+}
+
+.editVacation-logo {
+    width: 100%;
+}
+
+.editVacation-form {
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+    height: clamp(fit-content, 70%, 70%);
+    margin: auto;
+    width: clamp(350px, 90%, 90%);
+    background-color: rgb(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.editVacation-form-element {
+    min-width: 300px;
+    width: 60%;
+    margin: 15% auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    flex-direction: column;
+    text-align: center;
+}
+
+.editVacation-form-element>* {
+    margin-top: 10%;
+}
+
+.editVacation-column-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: left;
+}
+
+.editVacation-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5%;
+}
+
+.editVacation-row-container {
+    text-align: left;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.editVacation-row-container>input {
+    border: none;
+    border-radius: 9px;
+    width: 100%;
+    height: 40px;
+}
+
+.editVacation-custom-file-input {
+    color: transparent;
+}
+
+.editVacation-custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.editVacation-custom-file-input::before {
+    content: 'Select some files';
+    color: black;
+    display: inline-block;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+    width: 100%;
+    height: 40px;
+}
+
+.editVacation-custom-file-input:hover::before {
+    border-color: black;
+}
+
+.editVacation-custom-file-input:active {
+    outline: 0;
+}
+
+.editVacation-custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.editVacation-send-button {
+    margin: 6% auto 0%;
+    border: none;
+    background-color: #98B3B1;
+    color: white;
+    border-radius: 34px;
+    height: 40px;
+    width: 200px;
+}
+
+@media only screen and (max-width:860px) {
+    .preview {
+        display: none;
+    }
+
+    .editVacation-side-container {
+        width: 100%;
+        position: relative;
+    }
+
+    .editVacation-form {
+        min-width: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+
+    .editVacation-row {
+        display: flex;
+        flex-direction: column;
+        gap: 0%;
+    }
+
+    .editVacation-description {
+        height: 50px;
+    }
+
+    .editVacation-input {
+        border: none;
+        border-radius: 9px;
+        width: 300px;
+    }
+
+    .editVacation-row-container>input {
+        border: none;
+        border-radius: 9px;
+        width: 300px;
+        height: 40px;
+    }
+
+    .editVacation-form-element {
+        padding: 10% 0%;
+        margin: 0% auto;
+    }
+
+    .editVacation-form-element>* {
+        margin: auto;
+    }
+}

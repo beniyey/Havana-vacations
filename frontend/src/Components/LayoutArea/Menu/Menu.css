@@ -1,0 +1,30 @@
+.Menu {
+    z-index: 2;
+    position: absolute;
+    top: 9%;
+    right: 7%;
+    font-size: 15px;
+    margin-top: 10px;
+    color: #F2B58F;
+}
+
+.Menu-logout {
+    color: #F2B58F;
+    text-decoration: none;
+    border: 2px solid #98B3B1;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 15px;
+}
+
+.Menu-logout:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #98B3B1;
+    border: 2px solid #98B3B1;
+    border-radius: 100px 100px 100px 100px;
+    padding: 2px 15px;
+}
+
+.Menu-user-icon {
+    margin-bottom: 2%;
+}

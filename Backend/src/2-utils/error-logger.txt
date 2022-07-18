@@ -1,0 +1,23 @@
+
+ error : undefined has ocurred at 7/6/2022, 5:46:08 PM
+ ********************************************************
+ error : ENOENT: no such file or directory, open './src/1-assets/images/01fc0246-d3a0-4954-b647-bf09fa977ed8.jpeg' has ocurred at 7/9/2022, 12:43:56 PM
+ ********************************************************
+ error : ENOENT: no such file or directory, open './src/1-assets/images/84497ce2-2031-4829-9c19-36a72f4a1ec1.jpeg' has ocurred at 7/9/2022, 12:44:10 PM
+ ********************************************************
+ error : ENOENT: no such file or directory, open './src/1-assets/images/8c360a37-71b9-4958-be7a-2e0b45f60404.jpeg' has ocurred at 7/9/2022, 12:45:06 PM
+ ********************************************************
+ error : ENOENT: no such file or directory, open './src/1-assets/images/9d979e4d-2be6-4ce1-97b7-4ec0df067572.jpeg' has ocurred at 7/9/2022, 12:55:19 PM
+ ********************************************************
+ error : connect ECONNREFUSED 127.0.0.1:8889 has ocurred at 7/12/2022, 10:33:38 AM
+ ********************************************************
+ error : connect ECONNREFUSED 127.0.0.1:8889 has ocurred at 7/12/2022, 10:33:38 AM
+ ********************************************************
+ error : connect ECONNREFUSED 127.0.0.1:8889 has ocurred at 7/12/2022, 10:34:18 AM
+ ********************************************************
+ error : connect ECONNREFUSED 127.0.0.1:8889 has ocurred at 7/12/2022, 10:34:27 AM
+ ********************************************************
+ ********************************************************
+ error : connect ECONNREFUSED 127.0.0.1:8889 has ocurred at 7/12/2022, 10:34:34 AM
+ ********************************************************
+ error : ENOENT: no such file or directory, open '/Users/benspector/Desktop/ben-spector-project-3/Backend/src/4-logic/public/0df23d3a-0765-4d9e-9920-fc66270a0c64.png' has ocurred at 7/13/2022, 4:03:37 PM
