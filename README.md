@@ -1,4 +1,4 @@
-![Havana-logo](https://user-images.githubusercontent.com/77046928/179751866-504cdc5f-840d-4c41-8cfe-2fc18d3d5a8f.png)
+![logo-white](https://user-images.githubusercontent.com/77046928/179752616-5cd4fe4e-5c9e-48df-845b-493d7141db3b.png)
 
 ## Note
 if you go to the heroku hosting please allow a spool up of 20-30 seconds.
